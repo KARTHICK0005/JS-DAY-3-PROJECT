@@ -1,0 +1,74 @@
+body{
+    font-family: Arigal,Arial, Helvetica, sans-serif;
+
+}
+section{
+    text-align: center;
+    border: 5px solid black;
+    background-image: url("https://i0.wp.com/www.thegamegal.com/wp-content/uploads/2018/08/ultimate-tic-tac-toe13-01.png?resize=340%2C340&ssl=1");
+}
+.game--title{
+    font-size:xx-large;
+    color: maroon;
+}
+.game--container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 300px;
+    margin: 50px auto;
+}
+.cell{
+    font-family: "permanant Marker", cursive;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 60px;
+    line-height: 100px;
+    background-color: slategrey;
+}
+.game--restart{
+    background-color: teal;
+}
+#aa
+{
+    border-radius: 20px;
+    background-color: burlywood;
+}
+#bb
+{
+    border-radius: 20px;
+    background-color: indianred;
+}
+#cc
+{
+    border-radius: 20px;
+    background-color: plum;
+}
+#dd
+{
+    border-radius: 20px;
+    background-color:ghostwhite;
+}
+#ee
+{
+    border-radius: 20px;
+    background-color:gray;
+}
+#ff
+{
+    border-radius: 20px;
+    background-color:peru;
+}
+#gg{
+    border-radius: 20px;
+    background-color:blueviolet;
+}
+#hh{
+    border-radius: 20px;
+    background-color:aqua
+}
+#ii{
+    border-radius: 20px;
+    background-color:orangered;
+}
